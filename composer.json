@@ -1,0 +1,14 @@
+{
+  "name": "focusvision/activecalendar-php",
+  "description": "Active Calendar",
+  "homepage": "http://www.micronetwork.de/activecalendar/",
+  "license": "LGPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Giorgos Tsiledakis"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
