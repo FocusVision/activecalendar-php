@@ -1,5 +1,5 @@
 <?php
-require_once(KS_SHAREPATH . "activecalendar/activecalendar.php");
+require_once("../source/activecalendar.php");
 $cal=new activeCalendar();
 $layout=@$_GET['css'];
 function makeSelectDays($cal){

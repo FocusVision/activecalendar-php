@@ -1,7 +1,6 @@
 <?php
-require_once(KS_SHAREPATH . "activecalendar/activecalendar.php");
+require_once("../source/activecalendar.php");
 $cal = new activeCalendar("2007","11");
-$cal->enableMonthNav();
 $cal->setEventContent("2007","11","2","Google","http://www.google.com");
 $cal->setEventContent("2007","11","12","<img src=\"img/pager.png\" border=\"0\" alt=\"\" /> meeting");
 $cal->setEventContent("2007","11","24","<img src=\"img/ok.png\" border=\"0\" alt=\"\" /> birthday");

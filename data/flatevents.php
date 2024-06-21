@@ -17,7 +17,7 @@ function eventsFromFile($filepath,$divideStr) {
 	if(file_exists($filepath)){
 		$line = file($filepath);
 			for($x=0;$x<count($line);$x++){
-				$lineArray=preg_split($divideStr,$line[$x]);
+				$lineArray=split($divideStr,$line[$x]);
 				if (is_array($lineArray)) $eventsArray[$x]=$lineArray;
 			}
 		return $eventsArray;
@@ -40,7 +40,7 @@ extract($_GET);
 Create a calendar object
 ********************************************************************************
 */
-require_once(KS_SHAREPATH . "activecalendar/activecalendar.php");
+require_once("../source/activecalendar.php");
 $cal=new activeCalendar($yearID,$monthID,$dayID);
 /*
 ********************************************************************************

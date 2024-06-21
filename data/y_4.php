@@ -1,5 +1,5 @@
 <?php
-require_once(KS_SHAREPATH . "activecalendar/activecalendar.php");
+require_once("../source/activecalendar.php");
 $cal=new activeCalendar();
 ?> 
 <?php print "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n"; ?>

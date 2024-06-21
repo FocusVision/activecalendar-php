@@ -1,6 +1,6 @@
 <?php
-require_once(KS_SHAREPATH . "activecalendar/activecalendar.php");
-require_once(KS_SHAREPATH . "activecalendar/activecalendarweek.php");
+require_once("../source/activecalendar.php");
+require_once("../source/activecalendarweek.php");
 $cal = new activeCalendarWeek();
 $cal->enableWeekNum("Week");
 ?> 

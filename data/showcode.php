@@ -16,16 +16,7 @@ $fp=@fopen($file,'r');
 }
 if (!isset($_GET['page'])) die("The structure of Active Calendar Class package has been modified. Unable to procced...\n</body>\n</html>");
 ?>
-<div class="code">
-<?php 
-if( isset($_GET['page']) )
-{
-	// Make sure page is in the current directly
-	$page = substr($_GET['page'], strrpos($_GET['page'],'/')+1);
-	print nl2br(htmlspecialchars(getContent($page)));
-}
-?>
-</div>
+<div class="code"><?php print nl2br(htmlspecialchars(getContent($_GET['page']))); ?></div>
 <br />
 <center><a href="../examples.php">Back to examples.php</a></center>
 </body>

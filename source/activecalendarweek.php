@@ -1,5 +1,5 @@
 <?php
-require_once(KS_SHAREPATH . 'activecalendar/activecalendar.php');
+require_once('activecalendar.php');
 /*
 * @subclass: activeCalendarWeek
 * @class: activeCalendar

@@ -1,5 +1,5 @@
 <?php
-require_once(KS_SHAREPATH . "activecalenar/activecalendar.php");
+require_once("../source/activecalendar.php");
 $myurl=$_SERVER['PHP_SELF']."?css=".@$_GET['css']; // the links url is this page
 $cal = new activeCalendar("2007","11");
 $cal->setEvent("2007","11","17","event"); // create a class="event"
